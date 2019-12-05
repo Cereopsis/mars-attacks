@@ -44,6 +44,7 @@ Applying a modulus of the grid size to the coordinates would give us a reset to 
 1 If a straight line is required here, we can calculate that by simple trigonometry. If we actually need to track along that line
   then we'l definitely require the more complex model.
   
+  
 2 Collision detection is commonly provided by data maps, for example in games. That definitely requires more math!
 
 
