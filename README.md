@@ -5,6 +5,7 @@
 Two options that spring to mind initially:
 
 1 Normalised coordinates i.e use values between 0.0 and 1.0
+
 2 Use a dynamic grid size with the values being set at runtime via configuration/program input
 
 In either case the coordinates can be modelled using a fairly straightforward `Point` object:
@@ -16,7 +17,8 @@ case class Point(x: MRFloat, y: MRFloat)
 
 *Movement*
 
-* Forward  - A 180 degree rotation gives us reverse 
+* Forward  - A 180 degree rotation gives us reverse
+
 * Rotation - Let's naively assume rotating by 90 degree increments is good enough
 
 ```scala
